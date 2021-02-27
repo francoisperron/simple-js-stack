@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/francoisperron/simple-js-stack.svg?branch=main)](https://travis-ci.org/francoisperron/simple-js-stack)
+
 ##### Intention
 * Build a simple FE stack that I like with fewer libs and tools
 * Fast feedback, fast tests
