@@ -1,0 +1,29 @@
+{
+  "name": "learning-karma",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/start.js",
+    "test": "mocha --recursive src",
+    "build": "node scripts/build.js",
+    "clean": "node scripts/clean.js"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "7.29.6",
+    "browser-sync": "2.26.14",
+    "chai": "4.3.0",
+    "esbuild": "0.8.51",
+    "jsdom": "16.4.0",
+    "jsdom-global": "3.0.2",
+    "mocha": "8.3.0",
+    "whatwg-fetch": "3.6.1"
+  },
+  "mocha": {
+    "exit": true,
+    "require": [
+      "chai/register-expect",
+      "jsdom-global/register"
+    ]
+  }
+}
