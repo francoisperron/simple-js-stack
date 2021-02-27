@@ -1,4 +1,4 @@
-const Text = ({text}) => {
+const Text = ({ text }) => {
   const element = document.createElement('div')
 
   element.textContent = text.get()

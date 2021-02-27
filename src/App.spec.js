@@ -31,4 +31,15 @@ describe('the app', () => {
 
     expect(dom.getByText(app, model.time.get().toLocaleTimeString())).to.exist
   })
+
+  it('shows lang', () => {
+    expect(dom.getByText(app, 'fr')).to.exist
+  })
+
+  it('changes lang', () => {
+    const checkbox = dom.getByTestId(app, 'lang')
+    dom.fireEvent.click(checkbox)
+
+    expect(dom.getByText(app, 'en')).to.exist
+  })
 })

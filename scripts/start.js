@@ -10,7 +10,6 @@ const buildJS = () => {
 
   esbuild.build(options)
     .then(() => server.reload())
-    .catch(() => process.exit(1))
 }
 
 const buildHTML = () => {
