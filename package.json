@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=14.15"
+  },
   "scripts": {
     "start": "node scripts/start.js",
     "test": "mocha --recursive src",

@@ -1,5 +1,8 @@
-##### Goal
-* Build a FE stack that I like with fewer libs and tools
+##### Intention
+* Build a simple FE stack that I like with fewer libs and tools
+* Fast feedback, fast tests
+* Small bundle
+* Pure js
 
 ##### Building tools
 * browser-sync: for reloading app on change
